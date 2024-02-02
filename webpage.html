@@ -1,0 +1,44 @@
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <title> Traitement des données </title>
+      <style>
+      body{
+          
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-color: rgb(118, 1, 118);  /* Ajout de cette ligne pour le fond violet */
+          color: #e5f2f7;
+          background-attachment: fixed;
+      }
+      </style>
+   </head>
+   
+   <body>
+       <center><h1>Julien Nkoma</h1></center>
+       <center><h2>Projet SAE 15</h2></center>
+       <center><p>Sur cette page web, nous vous présentons les informations et données pertinentes trouvées dans le fichier à traiter.</p></center>
+       <center><h3> Nombre total de trames échangées</h3> %s</center>
+       <br>
+       <center><h3> Drapeaux (Flags)<h3></center>
+       <center>Nombre de flags [P] (PUSH) = %s
+       <br>Nombre de flags [S] (SYN) = %s  
+       <br>Nombre de flag [.] (ACK) = %s
+       <br>
+       <br>
+       <img src="graphe1.png">
+       <h3> Nombre de requêtes et réponses </h3>
+       Request = %s 
+       <br>
+       Reply = %s
+       <br>
+       <br>
+       <img src="graphe2.png">
+       <h3>Statistiques entre seq, win et ack </h3>
+       Nombre de seq = %s
+       <br>
+       Nombre de win = %s
+       <br>
+       Nombre de ack = %s
+   </body>
+</html>
